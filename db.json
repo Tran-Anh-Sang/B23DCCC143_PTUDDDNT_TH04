@@ -1,0 +1,375 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "studentCode": "B23DCCN001",
+      "fullName": "Nguyễn Văn An",
+      "className": "CNTT-K23A",
+      "major": "Công nghệ thông tin",
+      "email": "an.nv@student.edu.vn",
+      "phone": "0912345678",
+      "updatedAt": "2026-10-20T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "studentCode": "B23DCCN002",
+      "fullName": "Trần Thị Bình",
+      "className": "CNTT-K23A",
+      "major": "Công nghệ thông tin",
+      "email": "binh.tt@student.edu.vn",
+      "phone": "0923456789",
+      "updatedAt": "2026-10-20T08:00:00Z"
+    },
+    {
+      "id": 3,
+      "studentCode": "B23DCCN003",
+      "fullName": "Lê Hoàng Cường",
+      "className": "CNTT-K23B",
+      "major": "Công nghệ thông tin",
+      "email": "cuong.lh@student.edu.vn",
+      "phone": "0934567890",
+      "updatedAt": "2026-10-20T08:00:00Z"
+    },
+    {
+      "id": 4,
+      "studentCode": "B23DCMT004",
+      "fullName": "Phạm Minh Dũng",
+      "className": "KHMT-K23A",
+      "major": "Khoa học máy tính",
+      "email": "dung.pm@student.edu.vn",
+      "phone": "0945678901",
+      "updatedAt": "2026-10-20T08:00:00Z"
+    },
+    {
+      "id": 5,
+      "studentCode": "B23DCMT005",
+      "fullName": "Võ Thu Hà",
+      "className": "KHMT-K23A",
+      "major": "Khoa học máy tính",
+      "email": "ha.vt@student.edu.vn",
+      "phone": "0956789012",
+      "updatedAt": "2026-10-20T08:00:00Z"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "code": "INT3120",
+      "name": "Phát triển ứng dụng di động",
+      "credits": 3,
+      "lecturer": "TS. Trần Đại",
+      "description": "Lập trình ứng dụng di động đa nền tảng với React Native.",
+      "semester": "HK1 2026-2027"
+    },
+    {
+      "id": 2,
+      "code": "INT3306",
+      "name": "Phát triển ứng dụng Web",
+      "credits": 3,
+      "lecturer": "ThS. Lê Hải",
+      "description": "HTML, CSS, JavaScript, REST API và triển khai ứng dụng web.",
+      "semester": "HK1 2026-2027"
+    },
+    {
+      "id": 3,
+      "code": "INT2204",
+      "name": "Lập trình hướng đối tượng",
+      "credits": 3,
+      "lecturer": "PGS.TS. Nguyễn Khoa",
+      "description": "Lớp, kế thừa, đa hình, nguyên lý SOLID và mẫu thiết kế.",
+      "semester": "HK2 2025-2026"
+    },
+    {
+      "id": 4,
+      "code": "INT2211",
+      "name": "Cơ sở dữ liệu",
+      "credits": 4,
+      "lecturer": "TS. Phạm Thu Hà",
+      "description": "Mô hình quan hệ, SQL, chuẩn hóa và giao dịch.",
+      "semester": "HK2 2025-2026"
+    },
+    {
+      "id": 5,
+      "code": "INT3305",
+      "name": "Mạng máy tính",
+      "credits": 3,
+      "lecturer": "TS. Vũ Quang Huy",
+      "description": "Mô hình phân tầng, TCP/IP, định tuyến và bảo mật mạng.",
+      "semester": "HK1 2026-2027"
+    },
+    {
+      "id": 6,
+      "code": "MAT1101",
+      "name": "Xác suất thống kê",
+      "credits": 2,
+      "lecturer": "TS. Đỗ Hoàng Nam",
+      "description": "Biến ngẫu nhiên, ước lượng, kiểm định giả thuyết.",
+      "semester": "HK2 2025-2026"
+    },
+    {
+      "id": 7,
+      "code": "FLF1107",
+      "name": "Tiếng Anh chuyên ngành",
+      "credits": 2,
+      "lecturer": "ThS. Bùi Lan Phương",
+      "description": "Đọc hiểu tài liệu kỹ thuật và thuyết trình bằng tiếng Anh.",
+      "semester": "HK1 2026-2027"
+    },
+    {
+      "id": 8,
+      "code": "INT3117",
+      "name": "Kiểm thử phần mềm",
+      "credits": 3,
+      "lecturer": "ThS. Hoàng Đức Long",
+      "description": "Kỹ thuật thiết kế test case, kiểm thử tự động và đảm bảo chất lượng.",
+      "semester": "HK1 2026-2027"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "courseId": 1,
+      "dayOfWeek": 2,
+      "startTime": "07:00",
+      "endTime": "09:30",
+      "room": "P.301-A2",
+      "note": "Mang laptop"
+    },
+    {
+      "id": 2,
+      "courseId": 2,
+      "dayOfWeek": 2,
+      "startTime": "13:00",
+      "endTime": "15:30",
+      "room": "P.205-D3",
+      "note": ""
+    },
+    {
+      "id": 3,
+      "courseId": 5,
+      "dayOfWeek": 3,
+      "startTime": "09:00",
+      "endTime": "11:30",
+      "room": "P.402-D5",
+      "note": "Chuẩn bị Wireshark"
+    },
+    {
+      "id": 4,
+      "courseId": 7,
+      "dayOfWeek": 3,
+      "startTime": "13:30",
+      "endTime": "15:00",
+      "room": "P.104-C2",
+      "note": ""
+    },
+    {
+      "id": 5,
+      "courseId": 8,
+      "dayOfWeek": 4,
+      "startTime": "07:00",
+      "endTime": "09:30",
+      "room": "P.210-B1",
+      "note": "Kiểm tra nhanh 15 phút đầu giờ"
+    },
+    {
+      "id": 6,
+      "courseId": 1,
+      "dayOfWeek": 5,
+      "startTime": "07:00",
+      "endTime": "09:30",
+      "room": "Lab 3-D3",
+      "note": "Cài sẵn Node.js và Android Studio"
+    },
+    {
+      "id": 7,
+      "courseId": 2,
+      "dayOfWeek": 5,
+      "startTime": "13:00",
+      "endTime": "15:30",
+      "room": "Lab 2-D5",
+      "note": ""
+    },
+    {
+      "id": 8,
+      "courseId": 5,
+      "dayOfWeek": 6,
+      "startTime": "09:00",
+      "endTime": "11:30",
+      "room": "P.508-D9",
+      "note": ""
+    },
+    {
+      "id": 9,
+      "courseId": 8,
+      "dayOfWeek": 6,
+      "startTime": "13:00",
+      "endTime": "15:30",
+      "room": "Lab 1-D5",
+      "note": "Thực hành kiểm thử tự động"
+    },
+    {
+      "id": 10,
+      "courseId": 7,
+      "dayOfWeek": 7,
+      "startTime": "08:00",
+      "endTime": "10:30",
+      "room": "P.303-C2",
+      "note": "Thuyết trình theo nhóm"
+    }
+  ],
+  "assignments": [
+    {
+      "id": 1,
+      "courseId": 1,
+      "title": "Thực hành 4: API & Offline",
+      "description": "Kết nối API và hỗ trợ chế độ offline.",
+      "dueDate": "2026-11-09T16:59:00Z",
+      "status": "todo",
+      "updatedAt": "2026-10-26T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "courseId": 2,
+      "title": "Báo cáo REST API với Express",
+      "description": "Mô tả các endpoint CRUD và minh họa bằng Postman.",
+      "dueDate": "2026-11-04T16:59:00Z",
+      "status": "todo",
+      "updatedAt": "2026-10-26T08:00:00Z"
+    },
+    {
+      "id": 3,
+      "courseId": 5,
+      "title": "Phân tích gói tin bằng Wireshark",
+      "description": "Bắt và phân tích gói DNS, HTTP, TCP handshake.",
+      "dueDate": "2026-11-06T16:59:00Z",
+      "status": "todo",
+      "updatedAt": "2026-10-27T08:00:00Z"
+    },
+    {
+      "id": 4,
+      "courseId": 8,
+      "title": "Viết test case cho chức năng đăng nhập",
+      "description": "Thiết kế tối thiểu 15 test case, có kết quả mong đợi.",
+      "dueDate": "2026-11-15T16:59:00Z",
+      "status": "todo",
+      "updatedAt": "2026-10-27T08:00:00Z"
+    },
+    {
+      "id": 5,
+      "courseId": 7,
+      "title": "Bài đọc hiểu tài liệu kỹ thuật",
+      "description": "Đọc và tóm tắt một bài báo kỹ thuật bằng tiếng Anh.",
+      "dueDate": "2026-10-28T16:59:00Z",
+      "status": "todo",
+      "updatedAt": "2026-10-20T08:00:00Z"
+    },
+    {
+      "id": 6,
+      "courseId": 1,
+      "title": "Thực hành 3: Quản lý học tập",
+      "description": "Dựng 5 màn hình với Bottom Tab và Native Stack.",
+      "dueDate": "2026-10-25T16:59:00Z",
+      "status": "done",
+      "updatedAt": "2026-10-25T09:00:00Z"
+    },
+    {
+      "id": 7,
+      "courseId": 2,
+      "title": "Bài tập HTML/CSS",
+      "description": "Dựng trang giới thiệu bản thân responsive.",
+      "dueDate": "2026-10-18T16:59:00Z",
+      "status": "done",
+      "updatedAt": "2026-10-18T09:00:00Z"
+    },
+    {
+      "id": 8,
+      "courseId": 1,
+      "title": "Quiz: React Navigation",
+      "description": "Trắc nghiệm 15 câu về Stack, Tab và truyền tham số.",
+      "dueDate": "2026-11-03T16:59:00Z",
+      "status": "todo",
+      "updatedAt": "2026-10-28T08:00:00Z"
+    },
+    {
+      "id": 9,
+      "courseId": 5,
+      "title": "Báo cáo định tuyến OSPF",
+      "description": "So sánh OSPF và RIP, kèm mô phỏng Packet Tracer.",
+      "dueDate": "2026-11-12T16:59:00Z",
+      "status": "todo",
+      "updatedAt": "2026-10-28T08:00:00Z"
+    }
+  ],
+  "grades": [
+    {
+      "id": 1,
+      "courseId": 3,
+      "semester": "HK2 2025-2026",
+      "attendance": 9,
+      "midterm": 8,
+      "final": 8.5,
+      "total": 8.4,
+      "letter": "B+"
+    },
+    {
+      "id": 2,
+      "courseId": 4,
+      "semester": "HK2 2025-2026",
+      "attendance": 8,
+      "midterm": 7,
+      "final": 7.5,
+      "total": 7.4,
+      "letter": "B"
+    },
+    {
+      "id": 3,
+      "courseId": 6,
+      "semester": "HK2 2025-2026",
+      "attendance": 6,
+      "midterm": 3.5,
+      "final": 3.0,
+      "total": 3.45,
+      "letter": "F"
+    },
+    {
+      "id": 4,
+      "courseId": 1,
+      "semester": "HK1 2026-2027",
+      "attendance": 9,
+      "midterm": 7.5,
+      "final": 8.5,
+      "total": 8.25,
+      "letter": "B+"
+    },
+    {
+      "id": 5,
+      "courseId": 2,
+      "semester": "HK1 2026-2027",
+      "attendance": 10,
+      "midterm": 8.5,
+      "final": 9.0,
+      "total": 8.95,
+      "letter": "A"
+    },
+    {
+      "id": 6,
+      "courseId": 5,
+      "semester": "HK1 2026-2027",
+      "attendance": 8,
+      "midterm": 7.0,
+      "final": 7.0,
+      "total": 7.1,
+      "letter": "B"
+    },
+    {
+      "id": 7,
+      "courseId": 7,
+      "semester": "HK1 2026-2027",
+      "attendance": 9,
+      "midterm": 8.0,
+      "final": 8.5,
+      "total": 8.4,
+      "letter": "B+"
+    }
+  ]
+}
